@@ -1,0 +1,423 @@
+body{
+		background-color: #265c93;
+    margin: 0;
+    font-family: 'Nunito';
+  }
+
+  body { min-height: 150vh; }
+
+
+@media screen and ( max-width: 480px ){
+
+  [class*="col-"] {
+    width: 100%;
+  } 
+
+
+
+  header{
+	background-color: rgb(58, 97, 160);
+	position: absolute;
+	top: 0.50%;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 9px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+  }
+
+.med{
+	position: absolute;
+	left: 0px;
+	top: 36px;
+  width: 100%;
+}
+
+.me{
+	color: rgb(125, 197, 197);
+	position: absolute;
+	left: 0px;
+	top: 65px;
+	text-align: center;
+	-webkit-text-size-adjust: auto;
+
+}
+
+
+
+.bm{
+  top: 200px;
+	position: absolute;
+	text-align: center;
+	color: #e1e7ed
+  
+}
+
+.cta1:hover{background-color: #042c54;}
+.cta1{
+	position: absolute;
+    top: 725px;
+    text-align: center;
+    max-width: 300px;
+    text-decoration: none;
+    color: #f2a900 !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;
+    transition-property: all;
+    transition-duration: 320ms;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-delay: 0ms;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 90%;
+    border: 1px solid rgba(242,169,0,0.45);
+}
+
+ @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+ body {
+   display: flex;
+   background: #000;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+.content {
+  position: absolute;
+  top: 650px;
+  width: auto;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 7em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+	position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+
+
+.ych{
+	color: #d351f0;
+	position: absolute;
+	top: 850px;
+  width: auto;
+	
+}
+
+.ych1{
+	color: #03a9f4;
+	position: absolute;
+  width: auto;
+	top: 880px;
+	
+}
+
+.smile{
+	color: #03a9f4;
+	position: absolute;
+	top: 930px;
+  width: auto;
+	
+}
+
+.proc{
+	position: absolute;
+	top: 1000px;
+	right: 0px;
+	
+}
+
+
+  footer {
+	background-color: rgb(18, 114, 165);
+	position: absolute;
+	top: 1150px;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 9px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
+/* mobile min  */
+
+
+
+
+
+
+@media (min-width: 320px){
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  
+  
+  header{
+  background-color: rgb(58, 97, 160);
+  position: absolute;
+  top: 0.50%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+  }
+  
+  .med{
+  position: absolute;
+  right: 10px;
+  top: 36px;
+
+  }
+  
+  .me{
+  color: rgb(125, 197, 197);
+  position: absolute;
+  left: 0px;
+  top: 65px;
+  text-align: center;
+  -webkit-text-size-adjust: auto;
+  
+  }
+  
+  
+  
+  .bm{
+  top: 200px;
+  position: absolute;
+  text-align: center;
+  color: #467099
+  
+  }
+  
+  .cta1:hover{background-color: #042c54;}
+  .cta1{
+  position: absolute;
+    top: 725px;
+    text-align: center;
+    max-width: 300px;
+    text-decoration: none;
+    color: #f2a900 !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;
+    transition-property: all;
+    transition-duration: 320ms;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-delay: 0ms;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 90%;
+    border: 1px solid rgba(242,169,0,0.45);
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+  
+  * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+   display: flex;
+   background: #000;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .content {
+  position: absolute;
+  top: 650px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .content h2 {
+  color: #fff;
+  font-size: 5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  }
+  
+  .content h2:nth-child(1) {
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+  }
+  
+  .content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 2s ease-in-out infinite;
+  }
+  
+  @keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  }
+  
+  
+  
+  .ych{
+  color: #d351f0;
+  position: absolute;
+  top: 850px;
+  width: auto;
+  
+  }
+  
+  .ych1{
+  color: #03a9f4;
+  position: absolute;
+  width: auto;
+  top: 880px;
+  
+  }
+  
+  .smile{
+  color: #03a9f4;
+  position: absolute;
+  top: 930px;
+  left: 175px;
+  
+  }
+  
+  .proc{
+  position: absolute;
+  top: 1000px;
+  right: 0px;
+  
+  }
+  
+  
+  footer {
+  background-color: rgb(18, 114, 165);
+  position: absolute;
+  top: 1150px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+  }
+}
+
+
+
+
+/*    DESKTOP     */
+

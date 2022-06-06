@@ -1,0 +1,360 @@
+body{
+  background-color: #061c23;
+  margin: 0;
+  font-family: 'Nunito';
+}
+body { min-height: 190vh; }
+
+
+@media screen and ( max-width: 480px ){
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    
+  }
+
+
+
+header{
+  background-color: rgb(83, 9, 140);
+  position: absolute;
+  top: 0.50%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.youcan{
+  color: #6c020c;
+  position: absolute;
+
+  top: 10%;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.if{
+  color: #c96c9e;
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.cta{
+    left: 35px;
+    position: absolute;
+    top: 225px;
+    text-align: center;
+    max-width: 300px;
+    text-decoration: none;
+    color: #f2a900 !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;
+    transition-property: all;
+    transition-duration: 320ms;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-delay: 0ms;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 90%;
+    border: 1px solid rgba(242,169,0,0.45);
+
+}
+
+
+.video{
+  position: absolute;
+  top: 350px;
+  left:  0px;
+  width: 100%;
+  
+  }
+}
+
+.whywe{
+  position: absolute;
+  right: 4px;
+  color: #6b2dad;
+  top: 610px;
+  text-align: center;
+}
+
+.video1{
+  position: absolute;
+  top: 900px;
+  left:  0px;
+  width: 100%;
+}
+
+.contact{
+  position: absolute;
+  text-align: center;
+  color: #890a0c;
+  top: 1190px;
+  width: 100%;
+}
+
+  .animate-charcter
+{
+  position: absolute;
+  left: 65px;
+  top: 1290px;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 20% center;
+  }
+}
+
+.linkedin{
+  
+  position: absolute;
+  top: 1450px;
+  color: #44107a;
+  text-align: center;
+  width: 100%;
+}
+
+.hr{
+  position: absolute;
+  color: antiquewhite;
+  top: 1500px;
+  left: 190px;
+}
+
+footer {
+  background-color: rgb(205, 150, 236);
+  position: absolute;
+  top: 1510px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+/* MOBILE MIN  */
+
+
+@media (min-width: 320px){
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    
+  }
+
+
+
+header{
+  background-color: rgb(83, 9, 140);
+  position: absolute;
+  top: 0.50%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.youcan{
+  color: #6c020c;
+  position: absolute;
+
+  top: 10%;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.if{
+  color: #c96c9e;
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.cta{
+    left: 35px;
+    position: absolute;
+    top: 225px;
+    text-align: center;
+    max-width: 300px;
+    text-decoration: none;
+    color: #f2a900 !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;
+    transition-property: all;
+    transition-duration: 320ms;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-delay: 0ms;
+    font-size: 18px;
+    padding: 20px 0;
+    width: 90%;
+    border: 1px solid rgba(242,169,0,0.45);
+
+}
+
+
+.video{
+  position: absolute;
+  top: 350px;
+  left:  0px;
+  width: 100%;
+  
+  }
+}
+
+.whywe{
+  position: absolute;
+  right: 4px;
+  color: #6b2dad;
+  top: 610px;
+  text-align: center;
+}
+
+.video1{
+  position: absolute;
+  top: 900px;
+  left:  0px;
+  width: 100%;
+}
+
+.contact{
+  position: absolute;
+  text-align: center;
+  color: #890a0c;
+  top: 1190px;
+  width: 100%;
+}
+
+  .animate-charcter
+{
+  position: absolute;
+  left: 65px;
+  top: 1290px;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 20% center;
+  }
+}
+
+.linkedin{
+  
+  position: absolute;
+  top: 1450px;
+  color: #44107a;
+  text-align: center;
+  width: 100%;
+}
+
+.hr{
+  position: absolute;
+  color: antiquewhite;
+  top: 1500px;
+  left: 190px;
+}
+
+footer {
+  background-color: rgb(205, 150, 236);
+  position: absolute;
+  top: 1510px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/*--------DESKTOP---------*/
+
+
